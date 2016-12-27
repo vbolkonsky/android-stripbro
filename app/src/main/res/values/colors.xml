@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1a102a</color>
+    <color name="colorPrimaryDark">#aa000000</color>
+    <color name="colorAccent">#ffcc03</color>
+
+    <color name="barney_packet">#ffcc03</color>
+    <color name="barney_cancel">#8b98a1</color>
+</resources>

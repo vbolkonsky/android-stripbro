@@ -1,0 +1,40 @@
+<resources>
+
+
+    <style name="Theme.Stripbro" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+        <item name="spinnerStyle">@style/Widget.AppCompat.Spinner.Underlined</item>
+    </style>
+
+    <style name="Theme.Stripbro.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Stripbro.Launch" parent="Theme.Stripbro.NoActionBar">
+        <item name="android:windowBackground">@drawable/launch_screen_bg</item>
+    </style>
+
+    <style name="Theme.Stripbro.Fullscreen" parent="Theme.Stripbro.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Widget.Stripbro.Button.PrimaryAction" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="Widget.Stripbro.TextInput" parent="Base.TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="Widget.Stripbro.Button.Borderless.Accent" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">?colorAccent</item>
+    </style>
+    <style name="Widget.Stripbro.Button.Cancel" parent="Widget.Stripbro.Button.Borderless.Accent">
+        <item name="android:textColor">@color/barney_cancel</item>
+    </style>
+</resources>

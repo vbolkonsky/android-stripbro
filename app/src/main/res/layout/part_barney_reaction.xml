@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_gravity="bottom"
+    android:layout_height="220dp"
+    android:orientation="vertical"
+    android:paddingBottom="31dp"
+    android:paddingEnd="29dp"
+    android:paddingStart="29dp"
+    android:paddingTop="@dimen/activity_horizontal_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/layout_barney_reaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_reaction"
+                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center|fill_horizontal"
+                tools:text="Привет! Сегодня я изменю твою жизнь! Буду направлять тебя и помогать, чем смогу, а могу я многое! Вот тебе приветственный Chivas, и дальше предлагаю одно из следующих продолжений твоего вечера." />
+            <FrameLayout
+                android:id="@+id/tools_reaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <include layout="@layout/part_barney_tools"/>
+                </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

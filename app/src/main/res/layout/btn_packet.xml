@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@+id/btn_apply"
+    android:padding="20dp"
+    style="@style/Widget.Stripbro.Button.PrimaryAction"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:text="Private &amp; Chivas &amp; Кальян"
+    android:theme="@style/Theme.Stripbro"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+</Button>

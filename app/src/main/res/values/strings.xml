@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StripBro</string>
+    <string name="label_promo">Введте номер карты</string>
+    <string name="button_scan_card">Сканировать карту</string>
+    <string name="button_apply">Подтвердить</string>
+    <string name="show_strip">Друг, общайся с девушкам, а не смотри в телефон</string>
+</resources>

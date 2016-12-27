@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <ImageView
+        android:id="@+id/icBarney"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/barny_default"
+        android:scaleType="fitStart"/>
+    <include layout="@layout/part_barney_reaction"/>
+</FrameLayout>

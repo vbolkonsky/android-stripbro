@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="return_push_timer">10000</integer>
+    <integer name="logo_timer">7000</integer>
+    <integer name="main_timer">5000</integer>
+</resources>
